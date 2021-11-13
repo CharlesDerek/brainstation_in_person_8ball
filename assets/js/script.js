@@ -14,11 +14,11 @@ Magic8Ball.askQuestion = function (question) {
       var answerRandom = this.listOfAnswers[answerRandomIndex];
     console.log("Your question is " + question + ". The answer is " + answerRandom);
     $("#answer").text( answerRandom );
-    $('#8ball').attr('src', "/assets/img/answerside.png");
+    $('#8ball').attr('src', "/brainstation_in_person_8ball/assets/img/answerside.png");
     $('#8ball').effect("shake");
   } else {
     $("#answer").text( "Enter an actual question" );
-    $('#8ball').attr('src', "/assets/img/answerside.png");
+    $('#8ball').attr('src', "/brainstation_in_person_8ball/assets/img/answerside.png");
     $('#8ball').effect("shake");
     console.log("Enter an actual question.");
   }
@@ -27,7 +27,7 @@ Magic8Ball.askQuestion = function (question) {
 var askMe = function() {
 	$('#answer').hide();
 	
-	$("#8ball").attr('src', "/assets/img/8side.png");
+	$("#8ball").attr('src', "/brainstation_in_person_8ball/assets/img/8side.png");
 	
 	setTimeout(
     function() {
