@@ -1,0 +1,139 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #454545;
+  margin: auto;
+  padding: 0px;
+  background-color: #f8f8f8;
+  background-image: url('bkgd2.png');
+}
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.ball, .button {
+  margin: 0 auto;
+}
+.answer {
+  position:absolute;
+  width:14%;
+  top:55%;
+  left:45%;
+  margin-top:-60px;
+  margin-left:-65px;
+  margin-left: auto;
+  margin-right: auto;
+  font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  z-index: 10000000;
+}
+
+#questionButton {
+  font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  border: none;
+  color: #f8f8f8;
+  background-color: #f16059;
+  padding: 10px 75px;
+  display: block;
+  margin: auto;
+  z-index: 1000000;
+}
+
+header {
+  padding-top: 0.25em;
+  text-align: center;
+}
+header span {
+  font-size: 60px;
+  color: #f16059;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+} */
+img#\38 ball {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -10000
+}
+
+div {
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+
+/* .rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    z-index: -1;
+}
+.rotate.left {
+    -moz-transform:rotate(-30deg);
+    -webkit-transform:rotate(-30deg);
+    transform:rotate(-30deg);
+}
+.rotate.right {
+    -moz-transform:rotate(60deg);
+    -webkit-transform:rotate(60deg);
+    transform:rotate(60deg);
+}
+.rotate.center {
+    -moz-transform:rotate(30deg);
+    -webkit-transform:rotate(30deg);
+    transform:rotate(30deg);
+}
+.rotate.full-rotate {
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+} */
+
+
+/*
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  /* animation: shake 0.5s; */
+
+  /* When the animation is finished, start again */
+  /* animation-iteration-count: infinite; */
+/* } */
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-3deg); }
+  20% { transform: translate(-3px, 0px) rotate(3deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(3deg); }
+  50% { transform: translate(-1px, 2px) rotate(-3deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-3deg); }
+  80% { transform: translate(-1px, -1px) rotate(3deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-3deg); }
+}
